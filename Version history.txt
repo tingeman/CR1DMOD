@@ -1,0 +1,20 @@
+Version history:
+
+v1.6.3 Minor bug fix
+- changes to make vmd_test.m and test_of_temfwd.m run under Matlab 2018b
+- currently GUI is not functional (2021-02-23)
+
+v1.6.2 Minor adjustments and added documentation
+- Change to allow arrays of electrode positions to be passed in the config structure to dcgsafwd when used in the general surface array mode
+- Examples of command-line usage added to dcgsafwd.m and temfwd.m
+
+v1.6.1 Minor adjustments to GUI
+- Updates to make GUI run smoother with 2008 version of Matlab
+
+V1.6 Minor adjustments:
+- Minor adjustments to the handling of eps and mu in the calculation routines emgsafwd, fdemfwd and temfwd
+
+V1.5 new implementations:
+- calculation parameters (cparams), i.e. type of Hankel transform or which frequencies to calculate, are stored when saving a model.
+- When opening a model which includes calculation parameters, these will be loaded in the compute window, if it is open.
+- Keyboard menu implemented in debug mode.
